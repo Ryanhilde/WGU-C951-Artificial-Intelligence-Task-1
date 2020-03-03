@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I am sorry, I do not understand your response. To start over please type "begin". Otherwise, please type "help".</template>
+  </category>
+</aiml>

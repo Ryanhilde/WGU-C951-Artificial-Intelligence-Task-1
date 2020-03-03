@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>database administrator</pattern>
+        <template>Database Administrators are responsible for using databases to store, organize, and protect data. They also plan and develop databases, as well as assuring smooth user access of the database.
+            <br></br> <br></br>
+            <link>
+                <text> Click here to learn more about Database administrators.</text>
+                <url>https://targetjobs.co.uk/careers-advice/job-descriptions/279209-database-administrator-job-description</url>
+            </link>
+            <button>
+                <text>Click here to explore other careers.</text>
+                <postback>top careers</postback>
+            </button>
+             <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>find a career</postback>
+            </button>
+        </template>
+    </category>
+	<category>
+        <pattern>database administrator question</pattern>
+        <template>We think you should consider becoming a database administrator!
+        <br></br><br></br>
+        Database Administrators are responsible for using databases to store, organize, and protect data. They also plan and develop databases, as well as assuring smooth user access of the database.
+            <br></br> <br></br>
+            <link>
+                <text> Click here to learn more about Database administrators.</text>
+                <url>https://targetjobs.co.uk/careers-advice/job-descriptions/279209-database-administrator-job-description</url>
+            </link>
+            <button>
+                <text>Click here to explore other careers.</text>
+                <postback>top careers</postback>
+            </button>
+             <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>find a career</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

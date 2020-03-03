@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern>begin</pattern>
+        <template>Welcome! I am the student career bot for the department of Computer Science. To get started please select from the opitions below: 
+            <button>
+                <text>Learn about top 5 careers</text>
+                <postback>top careers</postback>
+            </button>
+            <button>
+                <text>Help me pick a career</text>
+                <postback>find a career</postback>
+            </button>    
+        </template>
+    </category>
+   
+   <category>
+        <pattern>top careers</pattern>
+        <template>Here are 5 Computer Science careers that you can look into with your degree
+            <button>
+                <text>Software Developer</text>
+                <postback>software developer</postback>
+            </button>
+            <button>
+                <text>Cybersecurity Analyst</text>
+                <postback>cybersecurity analyst</postback>
+            </button>
+            <button>
+                <text>UX Designer</text>
+                <postback>ux designer</postback>
+            </button>
+            <button>
+                <text>Database Administrator</text>
+                <postback>database administrator</postback>
+            </button>
+            <button>
+                <text>Web Developer</text>
+                <postback>web developer</postback>
+            </button>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>find a career</pattern>
+        <template>We will now ask you a series of questions to provide suggestions on career paths to consider.
+        <br></br><br></br>
+        Do you enjoy design but struggle with programming?
+            <button>
+                <text>yes</text>
+                <postback>webquestion</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>programming question</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>webquestion</pattern>
+        <template> Do you have a lot of experience working with web applications or API's?  
+            <button>
+                <text>yes</text>
+                <postback>webquestion 2</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>cyber question</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>programming question</pattern>
+        <template> Do you perfer to work in a development environment?
+            <button>
+                <text>yes</text>
+                <postback>programming question 2</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>database question</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>webquestion 2</pattern>
+        <template> Do you enjoy working primairly with web applications?
+            <button>
+                <text>yes</text>
+                <postback>web developer question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>ux designer question</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>cyber question</pattern>
+        <template> Do you enjoy working more with networks and security applications?
+            <button>
+                <text>yes</text>
+                <postback>cybersecurity analyst question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>no suggested job</postback>
+            </button>
+        </template>
+    </category>
+        <category>
+        <pattern>programming question 2</pattern>
+        <template> Do you enjoy engineering, designing, installing, testing, and maintaining software systems?
+            <button>
+                <text>yes</text>
+                <postback>software developer question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>cyber question</postback>
+            </button>
+        </template>
+    </category>
+            <category>
+        <pattern>database question</pattern>
+        <template>Do you enjoy using databases to store, organize, and protect data?
+            <button>
+                <text>yes</text>
+                <postback>database administrator question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>programming question 2</postback>
+            </button>
+        </template>
+    </category>
+
+</aiml>

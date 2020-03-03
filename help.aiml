@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>hello</pattern>
+        <template>Hello! Welcome to the student career services chat room. Please type "begin" to get started.</template>
+    </category>
+    <category>
+        <pattern>hi</pattern>
+        <template>Hello! Welcome to the student career services chat room. Please type "begin" to get started.</template>
+    </category>
+        
+    <category>
+        <pattern>help ^ </pattern>
+        <template>For additional help, it is best to schedule an appointment with a student advisor. Please select your ideal appointment time below.
+            <button>
+                <text>10:00:00 AM PST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>11:00:00 AM PST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>12:00:00 PM PST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>01:00:00 PM PST</text>
+                <postback>thank you</postback>
+            </button>
+            <button>
+                <text>02:00:00 PM PST</text>
+                <postback>thank you</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>thank you</pattern>
+        <template>Thank you! Your student advisor will be notified of your request and will reach out at the desired appointment time.
+        </template>
+    </category>
+    <category>
+        <pattern>support ^</pattern>
+        <template>Please type "help" for more to schedule an appointment.</template>
+    </category>
+    <category>
+        <pattern>schedule ^</pattern>
+        <template>Please type "help" for more to schedule an appointment.</template>
+    </category>
+    <category>
+        <pattern>appointment ^</pattern>
+        <template>Please type "help" for more to schedule an appointment.</template>
+    </category>
+    
+    <category>
+        <pattern>no suggested job</pattern>
+        <template>You have a unique skill-set, we recommend speaking with an advisor for a more personalized experience. Please type "help" to schedule an appointment!</template>
+    </category>
+    
+</aiml>
